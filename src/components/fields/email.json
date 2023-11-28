@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_fields_emails",
+  "info": {
+    "displayName": "Email",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "email"
+    }
+  }
+}

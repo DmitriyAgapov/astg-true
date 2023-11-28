@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_links_links",
+  "info": {
+    "displayName": "Link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "link_type": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "outline",
+        "button-primary",
+        "darkOutline"
+      ],
+      "default": "outline"
+    }
+  }
+}

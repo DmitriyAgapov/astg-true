@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_fields_media_images",
+  "info": {
+    "displayName": "MediaImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logoImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_meta_data",
+  "info": {
+    "displayName": "MetaData"
+  },
+  "options": {},
+  "attributes": {
+    "PublishDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "Author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

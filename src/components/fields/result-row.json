@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_fields_result_rows",
+  "info": {
+    "displayName": "result_row"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "thickness": {
+      "type": "string"
+    },
+    "quanity": {
+      "type": "integer"
+    }
+  }
+}

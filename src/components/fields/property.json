@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_fields_properties",
+  "info": {
+    "displayName": "property",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "value": {
+      "type": "decimal"
+    }
+  }
+}

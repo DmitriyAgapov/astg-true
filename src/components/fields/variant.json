@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_fields_variants",
+  "info": {
+    "displayName": "variant",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "type": "string"
+    },
+    "thickness": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quanity_in_box": {
+      "type": "integer"
+    },
+    "sqrt": {
+      "type": "decimal"
+    },
+    "weight": {
+      "type": "decimal"
+    },
+    "specific_weight": {
+      "type": "decimal"
+    },
+    "kmp": {
+      "type": "decimal"
+    },
+    "adhesion": {
+      "type": "decimal"
+    },
+    "temp": {
+      "type": "string"
+    },
+    "property": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fields.property"
+    }
+  }
+}

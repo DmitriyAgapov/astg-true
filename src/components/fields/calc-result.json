@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_fields_calc_results",
+  "info": {
+    "displayName": "calc_result",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "place": {
+      "type": "string"
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fields.result-row"
+    }
+  }
+}

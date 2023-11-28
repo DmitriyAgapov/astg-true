@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_layout_sections",
+  "info": {
+    "displayName": "Section"
+  },
+  "options": {},
+  "attributes": {
+    "BaseFields": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fields.title"
+    }
+  }
+}
